@@ -1,0 +1,30 @@
+{
+  "name": "ida-v2-deploy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.77",
+    "@types/react-dom": "18.2.25",
+    "again": "^0.0.1",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.0",
+    "next": "14.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "recoil": "^0.7.7",
+    "styled-components": "^6.1.8",
+    "styled-reset": "^4.5.2",
+    "typescript": "5.4.5"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0"
+  }
+}
