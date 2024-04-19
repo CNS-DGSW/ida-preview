@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styled, { keyframes } from "styled-components";
-import ArrowIcon from "../../../../assets/img/icon/arrowIcon.svg";
+import arrowIcon from "../../../../assets/img/icon/arrowIcon.svg";
 
 export const Chapter1Layout = styled.div`
   width: 100vw;
@@ -47,7 +47,7 @@ const motion = keyframes`
     100% {margin-bottom: 10px;}
 `;
 
-export const Chapter1ArrowIcon = styled(ArrowIcon)`
+export const Chapter1ArrowIcon = styled(arrowIcon)`
   position: absolute;
   animation: ${motion} 0.5s linear 0s infinite alternate;
   margin-bottom: 0px;

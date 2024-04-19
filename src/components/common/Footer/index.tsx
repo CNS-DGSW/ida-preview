@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
-import DGSWLogoSVG from "@/assets/img/Logo/dgswLogo_color.svg";
-import CNSLogoPNG from "@/assets/img/Logo/cnsLogo.png";
+import dgswLogo_color from "@/assets/img/Logo/dgswLogo_color.svg";
+import cnsLogo from "@/assets/img/Logo/cnsLogo.png";
 import YoutubeSVG from "@/assets/img/Icon/youtube.svg";
 import InstaSVG from "@/assets/img/Icon/instagram.svg";
 import Image from "next/image";
@@ -16,7 +16,7 @@ const Footer = () => {
           style={{ width: "104px" }}
           rel="noreferrer"
         >
-          <S.DGSWLogo as={DGSWLogoSVG} alt="dgsw" />
+          <S.DGSWLogo as={dgswLogo_color} alt="dgsw" />
           {/* <Image
             src={DGSWLogoSVG}
             alt="dgsw"
@@ -43,7 +43,7 @@ const Footer = () => {
         </S.FooterParagraphBox>
         <S.FooterParagraph>
           대구소프트웨어마이스터고등학교 CNS동아리
-          <S.CNSLogo src={CNSLogoPNG} alt="dgsw" />
+          <S.CNSLogo src={cnsLogo} alt="dgsw" />
         </S.FooterParagraph>
         <S.FooterLinkRow>
           <S.FooterLinkBox
