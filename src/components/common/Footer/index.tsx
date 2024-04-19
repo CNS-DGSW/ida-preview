@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
-import DgswLogo_color from "@/assets/img/Logo/dgswLogo_color.svg";
-import CnsLogo from "@/assets/img/Logo/cnsLogo.png";
+import DgswLogo_color from "@/assets/img/logo/dgswLogo_color.svg";
+import CnsLogo from "../../../assets/img/logo/cnsLogo.png";
 import YoutubeSVG from "@/assets/img/Icon/youtube.svg";
 import InstaSVG from "@/assets/img/Icon/instagram.svg";
 
